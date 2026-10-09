@@ -1,0 +1,2 @@
+laptop passwors = aasmathur
+pin = 5560
