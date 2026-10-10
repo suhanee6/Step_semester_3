@@ -1,0 +1,8 @@
+package week5_arrays_methods.assigment_problems;
+import java.util.Arrays;
+public class FantasyLeagueAutoDraftRankingEngine {
+ public static class Player implements Comparable<Player>{String name;int matchesPlayed;double battingAverage;boolean injured;public Player(String name,int matchesPlayed,double battingAverage,boolean injured){this.name=name;this.matchesPlayed=matchesPlayed;this.battingAverage=battingAverage;this.injured=injured;}static boolean isDraftable(int matchesPlayed){return matchesPlayed>=10;}static boolean isDraftable(int matchesPlayed,boolean injured){return matchesPlayed>=5&&!injured;}public int compareTo(Player other){return Double.compare(other.battingAverage,battingAverage);}}
+ public static boolean isDraftable(int matches){return Player.isDraftable(matches);}public static boolean isDraftable(int matches,boolean injured){return Player.isDraftable(matches,injured);}
+ public static String draftAndRank(Player[] players){Player[] eligible=Arrays.stream(players).filter(p->Player.isDraftable(p.matchesPlayed)||Player.isDraftable(p.matchesPlayed,p.injured)).toArray(Player[]::new);Arrays.sort(eligible);StringBuilder out=new StringBuilder();for(int i=0;i<eligible.length;i++){if(i>0)out.append(" | ");out.append(i+1).append(". ").append(eligible[i].name);}return out.toString();}
+ public static void main(String[] args){System.out.println(draftAndRank(new Player[]{new Player("Virat",15,48,false),new Player("Rahul",7,55,false),new Player("Sameer",3,60,false),new Player("Dev",12,20,true)}));}
+}
