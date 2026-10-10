@@ -1,4 +1,6 @@
 # Session 10 — Array Coding Assignments
 
-- SecondBestScore: returns the second-highest distinct score without sorting. Time O(n), extra space O(1).
-- DutyRosterRotation: rotates a roster right by k using modulo. Time O(n), extra space O(n).
+- **SecondBestScore**: second-highest distinct score in one pass without sorting; O(n) time and O(1) extra space.
+- **DutyRosterRotation**: right rotation using `k % n`; O(n) time and O(n) extra space.
+
+Both solutions include runnable examples and complexity notes.
