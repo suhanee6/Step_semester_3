@@ -35,17 +35,18 @@
 ## Date: 10-10-2026 — Batch PDF Upload (Weeks 6–10)
 
 **Today's Work:**
-- Added 5 Classes and Objects practice solutions and 5 assignment solutions to `feature/session_6`.
-- Added 5 Encapsulation practice solutions and 5 assignment solutions to `feature/session_7`.
-- Added 5 Week 8 abstraction/polymorphism practice solutions and 5 coding-assignment solutions to `feature/session_8`.
-- Added 5 Abstraction/Interface practice solutions and 5 coding-assignment solutions to `feature/session_9`.
-- Added the Second-Best Score and Duty Roster Rotation array solutions to `feature/session_10`.
+- Added the five Classes and Objects practice solutions and five assignment solutions to `feature/session_6`; included correctly named `Student` and `Employee` class implementations for the static-information problems.
+- Added five Encapsulation practice solutions and five assignment solutions to `feature/session_7`.
+- Added five Week 8 abstraction/polymorphism practice solutions and five coding-assignment solutions to `feature/session_8`.
+- Added five Abstraction/Interface practice solutions and five coding-assignment solutions to `feature/session_9`.
+- Added Second-Best Score and Duty Roster Rotation to `feature/session_10`.
 - Added a README to each new session branch.
 
 **Next Session Plan:**
-- Compile all newly added Java files with the Java version used by the course.
+- Compile the newly added Java files with the Java version used by the course.
 - Run the sample inputs from each PDF and fix any discrepancies.
 
 **Issues Faced:**
 - The abstraction PDFs emphasize common operations with type-specific implementations; solutions use interfaces, abstract classes and capability interfaces.
-- Some problems require quoted multiword strings, so their input parsing should be checked against the exact sample format during compilation/testing.
+- The quoted multiword input formats in two Week 8 practice problems require sample-format testing.
+- A fresh compile could not be run from this environment because GitHub could not be reached from the local shell; repository file presence was verified through GitHub.
