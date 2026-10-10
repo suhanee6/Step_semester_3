@@ -1,0 +1,2 @@
+package control_flow.assigment_problems;
+public class LoginAttemptSimulator { public static void simulateLogin(String correctCode,String[] attempts){for(int i=0;i<attempts.length&&i<3;i++)if(correctCode.equals(attempts[i])){System.out.println("Access granted on attempt "+(i+1));return;}System.out.println("Access denied — all attempts used");} public static void main(String[] a){simulateLogin("1234",new String[]{"0000","1234","9999"});} }
