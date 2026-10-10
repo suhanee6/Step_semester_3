@@ -1,0 +1,2 @@
+package control_flow.assigment_problems;
+public class SkipMultiplesOfThree { public static void printSkippingMultiplesOfThree(){for(int i=1;i<=20;i++){if(i%3==0)continue;System.out.print(i+(i==20?"":" "));}System.out.println();} public static void main(String[] a){printSkippingMultiplesOfThree();} }
