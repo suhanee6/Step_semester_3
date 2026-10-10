@@ -1,0 +1,2 @@
+package control_flow.assigment_problems;
+public class VotingEligibilityChecker { public static void checkVotingEligibility(int age){System.out.println(age>=18?"Eligible to vote":"Not eligible to vote");} public static void main(String[] a){checkVotingEligibility(20);} }
