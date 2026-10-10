@@ -1,0 +1,2 @@
+package control_flow.assigment_problems;
+public class TrafficSignalSimulator { public static void simulateTrafficSignal(int cycles){String[] colors={"Red","Green","Yellow"};String[] meanings={"Stop","Go","Prepare to stop"};for(int i=0;i<cycles;i++){switch(i%3){case 0:System.out.print(colors[0]+" - "+meanings[0]+" ");break;case 1:System.out.print(colors[1]+" - "+meanings[1]+" ");break;case 2:System.out.print(colors[2]+" - "+meanings[2]+" ");break;}}System.out.println();} public static void main(String[] a){simulateTrafficSignal(3);} }
