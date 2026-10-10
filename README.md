@@ -8,10 +8,28 @@
 - Added a session README with compile/run instructions.
 
 **Next Session Plan:**
-- Solve the problems from the next uploaded PDF and place them on its corresponding `feature/session_n` branch.
+- Continue with assignment problems and the next session's live-coding problems.
 
 **Issues Faced:**
-- The repository initially had no `develop` branch; it has now been created from `main`.
-- The existing `main` branch contains files other than `README.md`, contrary to the structure guide. These were left untouched to avoid deleting existing repository content.
+- The repository initially had no `develop` branch; it was created from `main`.
+- Existing files outside `README.md` on `main` were left untouched to avoid deleting user data.
 
 ---
+
+## Date: 10-10-2026 — Batch PDF Upload
+
+**Today's Work:**
+- Added 5 Week 1 assignment solutions to `feature/session_1` under `week1/assigment_problems`.
+- Added 5 Week 2 live-coding solutions and 5 Week 2 assignment solutions to `feature/session_2`.
+- Added 15 Week 3 control-flow assignment solutions to `feature/session_3`.
+- Added 5 Week 4 array practice solutions and 5 Week 4 array assignment solutions to `feature/session_4`.
+- Added 5 Week 5 array/method practice solutions and 5 Week 5 assignment solutions to `feature/session_5`.
+- Added a README to each session branch describing its solutions.
+
+**Next Session Plan:**
+- Compile and verify the Java source files from each feature branch and correct any issues found.
+- Continue placing future PDFs into their matching session branch and folder.
+
+**Issues Faced:**
+- The Week 5 arrays/methods concept-introduction PDF is instructional material with concept explanations and review questions, not a separate set of coding assignments; the Category C practice and assignment PDFs contain the 10 coding problems.
+- Existing repository files outside the guide's expected README-only `main` branch remain untouched.
