@@ -1,0 +1,2 @@
+package control_flow.assigment_problems;
+public class NumberPyramidPatternPrinter { public static void printNumberPyramid(int n){for(int row=1;row<=n;row++){for(int col=1;col<=row;col++)System.out.print(row);System.out.println();}} public static void main(String[] a){printNumberPyramid(4);} }
