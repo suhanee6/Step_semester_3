@@ -1,0 +1,2 @@
+package control_flow.assigment_problems;
+public class GradeClassifierWithAttendance { public static void classifyWithAttendance(int marks,int attendance){if(!(attendance>=75&&marks>=40)){System.out.println("Detained");return;}String grade=marks>=90?"A":marks>=75?"B":marks>=60?"C":"D";System.out.println("Grade: "+grade);} public static void main(String[] a){classifyWithAttendance(82,80);} }
