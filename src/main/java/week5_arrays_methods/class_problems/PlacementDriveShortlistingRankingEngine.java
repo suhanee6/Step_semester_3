@@ -1,0 +1,8 @@
+package week5_arrays_methods.class_problems;
+import java.util.Arrays;
+public class PlacementDriveShortlistingRankingEngine {
+ public static class Candidate implements Comparable<Candidate>{String name;double cgpa;int codingScore;public Candidate(String name,double cgpa,int codingScore){this.name=name;this.cgpa=cgpa;this.codingScore=codingScore;}static boolean isEligible(double cgpa){return cgpa>=7.5;}static boolean isEligible(double cgpa,int codingScore){return cgpa>=6.5&&codingScore>=60;}double composite(){return cgpa*10+codingScore*0.5;}public int compareTo(Candidate other){return Double.compare(other.composite(),composite());}}
+ public static boolean isEligible(double cgpa){return Candidate.isEligible(cgpa);} public static boolean isEligible(double cgpa,int score){return Candidate.isEligible(cgpa,score);}
+ public static String shortlistAndRank(Candidate[] candidates){Candidate[] eligible=Arrays.stream(candidates).filter(c->Candidate.isEligible(c.cgpa)||Candidate.isEligible(c.cgpa,c.codingScore)).toArray(Candidate[]::new);Arrays.sort(eligible);StringBuilder out=new StringBuilder();for(int i=0;i<eligible.length;i++){if(i>0)out.append(" | ");out.append(i+1).append(". ").append(eligible[i].name).append(" (").append(String.format("%.1f",eligible[i].composite())).append(')');}return out.toString();}
+ public static void main(String[] args){System.out.println(shortlistAndRank(new Candidate[]{new Candidate("Aisha",8.2,40),new Candidate("Rohit",6.8,65),new Candidate("Meena",6.0,90),new Candidate("Karan",7.5,20)}));}
+}
