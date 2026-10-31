@@ -50,3 +50,20 @@
 - The abstraction PDFs emphasize common operations with type-specific implementations; solutions use interfaces, abstract classes and capability interfaces.
 - The quoted multiword input formats in two Week 8 practice problems require sample-format testing.
 - A fresh compile could not be run from this environment because GitHub could not be reached from the local shell; repository file presence was verified through GitHub.
+
+
+---
+
+## Date: 31-10-2026 — Week 11
+
+**Today's Work:**
+- Created `feature/session_11` from `develop`.
+- Added five sorting-algorithm assignment solutions: Height Line-Up, Prize Table, Library Book Shelf, Is the Queue in Order, and Dice Throw Tally.
+- Added ten Category C data-structure coding solutions: Library Catalog Lookup, Warehouse Bin Grid Scan, Transaction Duplicate Check, Employee ID Lookup, Pair With Target Sum, Best Single Trade Profit, Insert Position in a Sorted List, Spiral Order Traversal, Pair Sum in a Sorted Array, and Remove Duplicates From a Sorted Array.
+- Added README files for both Week 11 solution folders.
+
+**Next Session Plan:**
+- Compile and test the Week 11 Java files against the supplied examples and additional inputs.
+
+**Issues Faced:**
+- The Category C practice PDF's quiz and concept questions were not converted into Java files; only Part A coding problems 1–10 were implemented.
