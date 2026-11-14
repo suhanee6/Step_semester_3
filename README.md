@@ -67,3 +67,8 @@
 
 **Issues Faced:**
 - The Category C practice PDF's quiz and concept questions were not converted into Java files; only Part A coding problems 1–10 were implemented.
+
+
+### Week 11 — Category C Practice Problems
+- Added six practice solutions from `CATEGORY-C-PRACTICE-PROBLEMS.pdf` to `feature/session_11` under `src/main/java/week11_practice/`: Campus Staff Salary, Class Report Card, Library Return Desk, Payment Processing, Weekly Rainfall Analysis, and Hostel Electricity Bill.
+- Added a folder README with problem summaries and implementation notes.
